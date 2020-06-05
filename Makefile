@@ -11,6 +11,7 @@ PKGS := $(subst  :,_,$(PKGS))
 BUILDFLAGS := ''
 CGO_ENABLED = 0
 VENDOR_DIR=vendor
+VERSION := 0.1.0
 
 all: build
 
